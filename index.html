@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexis Garay's Porfolio Website</title>
+
+    <!-- SEO MEAT TAGS -->
+    <meta name="description"
+        content="A porfolio of Alexis Garay's various different projects, from web design and photography to analytical research and introspective essays.">
+    <meta name="keywords"
+        content="alexis garay, portfolio, writer, web designer, researcher, sports, video editor, photographer, public speaker">
+    <meta name="author" content="Alexis Garay">
+
+    <!-- OPEN  GRAPH - OG -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://alexis-o-garay.neocities.org/">
+    <meta property="og:title" content="Alexis Garay's Porfolio Website">
+    <meta property="og:description"
+        content="A porfolio of Alexis Garay's various different projects, from web design and photography to analytical research and introspective essays.">
+    <meta property="og:image" content="">
+    <!-- ERROR: og:image is EMPTY. Add the URL of an actual hero image
+         like assets/images/Images-Taken-By-Me/Amtrak.webp. -->
+
+    <!-- TWITTER TAGS -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Alexis Garay's Porfolio Website">
+    <meta name="twitter:description"
+        content="A porfolio of Alexis Garay's various different projects, from web design and photography to analytical research and introspective essays.">
+    <meta name="twitter:image" content="github assets">
+    <!-- ERROR: "github assets" is a placeholder, not a real URL.
+         Replace with an actual image URL. -->
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="page-header" role="banner">
+        <span class="nav-logo"><i class="fa-regular fa-star"></i></span>
+        <input type="checkbox" id="ham-toggle" class="ham-checkbox">
+        <nav class="main-nav" aria-label="Main navigation">
+            <div class="nav-dropdown">
+                <a href="#" class="nav-link" aria-haspopup="true" aria-expanded="false">ABOUT</a>
+            </div>
+            <div class="nav-dropdown">
+                <a href="#" class="nav-link" aria-haspopup="true" aria-expanded="false">PROJECTS</a>
+            </div>
+            <div class="nav-dropdown">
+                <a href="#" class="nav-link" aria-haspopup="true" aria-expanded="false">CONTACT</a>
+            </div>
+        </nav>
+        <div class="header-buttons">
+            <a href="#" class="nav-cta">Follow</a>
+            <a href="#" class="nav-cta-b">Donate</a>
+        </div>
+        <label for="ham-toggle" class="ham-btn" aria-label="Toggle navigation menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+
+        <!-- HERO -->
+        <section id="home" class="hero-section" role="Hero banner">
+            <div class="hero-content">
+                <p class="hero-label">Hello. I am</p>
+                <h1 class="hero-title">Alexis Garay.</h1>
+                <!-- ERROR: There are MANY <h1> elements on this page
+                     (every .hero-title-card below is also h1). Only ONE
+                     h1 per page. Change every .hero-title-card from h1
+                     to h2 or h3 — the page hero h1 is fine to keep. -->
+                <p class="hero-subtitle">A bilingual writer, designer, video editor, and photographer, handling
+                    creative projects cleanly and diligently.</p>
+                <div class="hero-buttons">
+                    <a href="#" class="hero-button">Resume</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <img src="assets/images/hero/AlexisGarayRemovedBackground.webp" alt="Headshot of Myself"
+                    class="hero-image">
+                <!-- ✓ Excellent — this is a real photo YOU took. Using
+                     your own photography is the best content choice. -->
+            </div>
+        </section>
+
+        <!-- ABOUT-ME -->
+        <section id="about-mes" class="about-me-section">
+            <!-- About Me and Photo informational Section -->
+            <div class="about-mes-grid">
+                <section class="about-me-card">
+                    <header class="about-me-card-header">
+                        <h2 class="about-me-title">ABOUT ME</h2>
+                    </header>
+                    <div class="about-me-body">
+                        <p class="about-me-text">I am a 1st Generation American born in Houston, Texas, a son of
+                            Salvadoran immigrants. As a writer, I analyze and create media through a technical,
+                            historical, and cultural lens.
+                            I am working towards a Bachelor of Arts in Creative Media Industries, granting me a diverse
+                            skillset tailor-made to navigate the modern media landscape.</p>
+                        <p class="about-me-text">I have travelled internationally four times, three when visiting El Salvador, and once when
+                            going to Ireland to study abroad.
+                            Through those trips, I began to internalize the value of cultural mythologies, the importance of maintaining
+                            personal histories, and how individuals interact with foreign cultures.
+                        </p>
+                    </div>
+                </section>
+
+                <section class="about-me-card-b">
+                    <div class="about-me-body">
+                        <img src="assets/images/profile/ArtExhibit.webp"
+                            alt="Two people outside of a art exhibit holding hands" class="about-me-image">
+                    </div>
+                </section>
+
+                <section class="about-me-card">
+                    <header class="about-me-card-header">
+                        <h2 class="about-me-title">SKILLS</h2>
+                    </header>
+                    <div class="about-me-body">
+                        <ul class="about-me-list">
+                            <li> Eight years of experience using Microsoft Word, PowerPoint</li>
+                            <li> Five years of photographic practice</li>
+                            <li> Two years worth of public speaking</li>
+                            <li> One year of experience using a Canon EOS RP </li>
+                            <li> Expertise writing in HTML and CSS</li>
+                            <li> Experience using Adobe Premier Pro for video, sound editing</li>
+                            <li> Knowledge using the scriptwriting softwares of Celtx, Trelby</li>
+                            <li> Knowledge using the game engines of Bitsy, Twine</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="about-me-card">
+                    <header class="about-me-card-header">
+                        <h2 class="about-me-title">INVOLVEMENT</h2>
+                    </header>
+                    <div class="about-me-body">
+                        <p class="about-me-text">Served as Ambassador for the Tech Philosophy Club from Fall '25 to Spring '26, presenting and facilitating philosophical conversations.</p>
+                        <p class="about-me-text">Worked as Script Supervisor for the Tech Creative Media Association short film "Go For It" (2025).</p>
+                        <p class="about-me-text">Served as leader in Lone Star College - Kingwood's Honors College Leadership Program during Spring '24.</p>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <!-- NOTE: Good use of <about-me> for feature cards — appropriate here -->
+        <!-- NOTE: Descriptive alt text on all images — excellent! -->
+
+        <!-- PROJECTS -->
+        <section id="projects" class="project-section">
+            <div class="project-grid">
+
+                <article class="project-card">
+                    <header class="project-card-header">
+                        <img src="assets/images/projects/UnitedChronicleThumbnail.webp"
+                                alt="Thumbnail of United Chronicle website" class="project-image"></a>
+                        <span class="project-tag"><i class="fa-solid fa-code" aria-hidden="true"></i> Web Dev</span>
+                    </header>
+                    <div class="project-body">
+                        <p class="project-category"><i class="fa-solid fa-code" aria-hidden="true"></i> Web Dev &middot; 5 min read</p>
+                        <h2 class="project-title"><a href="case-studies/Garay_UnitedChronicle.zip">News Site: United Chronicle</a></h2>
+                        <p class="project-text">A project on designing various important pages of a fictional social media website. AI was only used for the vectorization of the logo.</p>
+                    </div>
+                    <footer class="project-card-footer">
+                        <span class="project-meta"><i class="fa-regular fa-file-zipper" aria-hidden="true"></i> ZIP File</span>
+                        <span class="project-meta"><i class="fa-solid fa-calendar" aria-hidden="true"></i> <time datetime="2026-04-13">Apr 13, 2026</time></span>
+                    </footer>
+                </article>
+
+                <article class="project-card">
+                    <header class="project-card-header">
+                        <img src="assets/images/projects/StarlightThumbnail.webp"
+                                alt="Thumbnail of Starlight website" class="project-image"></a>
+                        <span class="project-tag"><i class="fa-solid fa-code" aria-hidden="true"></i> Web Dev</span>
+                    </header>
+                    <div class="project-body">
+                        <p class="project-category"><i class="fa-solid fa-code" aria-hidden="true"></i> Web Dev &middot; 3 min read</p>
+                        <h2 class="project-title"><a href="case-studies/Garay_Starlight.zip">Landing Page: Starlight</a></h2>
+                        <p class="project-text">A project on designing the landing page of a fictional social media website. AI was only used for the vectorization of the logo.</p>
+                    </div>
+                    <footer class="project-card-footer">
+                        <span class="project-meta"><i class="fa-regular fa-file-zipper" aria-hidden="true"></i> ZIP File</span>
+                        <span class="project-meta"><i class="fa-solid fa-calendar" aria-hidden="true"></i> <time datetime="2026-03-09">Mar 09, 2026</time></span>
+                    </footer>
+                </article>
+
+                <article class="project-card">
+                    <header class="project-card-header">
+                        <img src="assets/images/projects/Heart-ManThumbnail.webp"
+                                alt="MSPaint Representation of Heart-Man" class="project-image"></a>
+                        <span class="project-tag"><i class="fa-solid fa-pencil"></i> Writing</span>
+                    </header>
+                    <div class="project-body">
+                        <p class="project-category"><i class="fa-solid fa-pencil"></i> Writing &middot; 10 min read</p>
+                        <h2 class="project-title"><a href="case-studies/Final Project - Character Creation.pdf">Character Creation: Heart-Man</a></h2>
+                        <p class="project-text">A case study in developing an original character, Heart-Man. Explains how to translate him into interactive
+                            media, such as a video game.
+                        </p>
+                    </div>
+                    <footer class="project-card-footer">
+                        <span class="project-meta"><i class="fa-regular fa-file-pdf" aria-hidden="true"></i> PDF File</span>
+                        <span class="project-meta"><i class="fa-solid fa-calendar" aria-hidden="true"></i> <time datetime="2025-12-05">Dec 5, 2025</time></span>
+                    </footer>
+                </article>
+
+                <article class="project-card">
+                    <header class="project-card-header">
+                        <video class="project-video" controls preload="none"
+                            poster="assets/images/projects/AbleThumbnail.webp" aria-label="Able">
+                            <source src="case-studies/Able.webm" type="video/WebM">
+                            Your browser does not support the video element.
+                        </video>
+                        <span class="project-tag"><i class="fa-solid fa-clapperboard"></i> Editing</span>
+                    </header>
+                    <div class="project-body">
+                        <p class="project-category"><i class="fa-solid fa-clapperboard" aria-hidden="true"></i> Editing &middot; 4 min watch</p>
+                        <h2 class="project-title"><a href="#">"Able"</a></h2>
+                        <p class="project-text">An interview with my partner about dealing with physical disabilities. A showcase of my editing and videography skills.</p>
+                    </div>
+                    <footer class="project-card-footer">
+                        <span class="project-meta"><i class="fa-regular fa-file-video" aria-hidden="true"></i> WebM File</span>
+                        <span class="project-meta"><i class="fa-solid fa-calendar" aria-hidden="true"></i> <time datetime="2025-12-03">Dec 3, 2025</time></span>
+                    </footer>
+                </article>
+
+                <article class="project-card">
+                    <header class="project-card-header">
+                        <img src="assets/images/projects/DeathOfStevenThumbnail.webp"
+                                alt="Minimalist brand design workspace" class="project-image"></a>
+                        <span class="project-tag"><i class="fa-solid fa-gamepad"></i> Game Dev</span>
+                    </header>
+                    <div class="project-body">
+                        <p class="project-category"><i class="fa-solid fa-gamepad" aria-hidden="true"></i> Game Dev &middot; 6 min playtime</p>
+                        <h2 class="project-title"><a href="#">Bitsy Mystery: Death of Steven</a></h2>
+                        <p class="project-text">Less truly is more. Discover how top agencies are stripping back visual
+                            noise to create brands that resonate in the age of information overload.</p>
+                    </div>
+                    <footer class="project-card-footer">
+                        <span class="project-meta"><i class="fa-solid fa-calendar" aria-hidden="true"></i> <time datetime="2026-01-18">Jan 18, 2026</time></span>
+                    </footer>
+                </article>
+
+                <article class="project-card">
+                    <header class="project-card-header">
+                        <img src="https://picsum.photos/seed/brand-design/600/300"
+                                alt="Minimalist brand design workspace" class="project-image"></a>
+                        <span class="project-tag"><i class="fa-solid fa-palette"></i> Design</span>
+                    </header>
+                    <div class="project-body">
+                        <p class="project-category"><i class="fa-solid fa-palette" aria-hidden="true"></i> Design &middot; 3 min read</p>
+                        <h2 class="project-title"><a href="#">Minimalism in Modern Branding</a></h2>
+                        <p class="project-text">Less truly is more. Discover how top agencies are stripping back visual
+                            noise to create brands that resonate in the age of information overload.</p>
+                    </div>
+                    <footer class="project-card-footer">
+                        <span class="project-meta"><i class="fa-solid fa-calendar" aria-hidden="true"></i> <time datetime="2026-01-18">Jan 18, 2026</time></span>
+                    </footer>
+                </article>
+            </div>
+        </section>
+
+        <!-- Call-To-Action -->
+        <section id="action" class="cta-section">
+            <about-me>
+                <!-- TIP: Same as hero — <about-me> is not the right wrapper for a CTA -->
+                <!-- Content -->
+                <div class="cta-content">
+                    <h1 class="cta-title">Ready to Shine?</h1>
+                    <!-- ERROR: Second <h1> on the page — there should only be ONE <h1>!
+                         FIX: Change to <h2> for proper heading hierarchy -->
+                    <div class="cta-buttons">
+                        <a href="#" class="cta-button">Get Started</a>
+                    </div>
+                </div>
+            </about-me>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="page-footer">
+        <div class="footer-columns">
+            <div class="footer-col">
+                <span class="nav-logo"><i class="fa-regular fa-star"></i></span>
+                <h1 class="footer-tagline">The United Chronicle</h1>
+                <p class="footer-tagline">Facts you can trust.</p>
+                <p class="footer-body">The United Chronicle is an independent national news organization dedicated to
+                    factual reporting. Founded in 2026, UC has become one of the most trusted sources of fast, accurate,
+                    unbiased news in website format and an essential provider of the technology and services vital to
+                    the
+                    news business. </p>
+            </div>
+            <div class="footer-col">
+                <p class="footer-col-title">From UC News</p>
+                <nav class="footer-nav" aria-label="Explore links">
+                    <a href="#" class="footer-link">About</a>
+                    <a href="#" class="footer-link">Contact Us</a>
+                    <a href="#" class="footer-link">Accessibility Statement</a>
+                    <a href="#" class="footer-link">Terms of Use</a>
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                    <a href="#" class="footer-link">Your Private Choices</a>
+
+                </nav>
+            </div>
+            <div class="footer-col">
+                <p class="footer-col-title">The United Chronicle</p>
+                <nav class="footer-nav" aria-label="Company links">
+                    <a href="#" class="footer-link">UC.org</a>
+                    <a href="#" class="footer-link">UC Gallery</a>
+                    <a href="#" class="footer-link">Careers</a>
+                    <a href="#" class="footer-link">Advertise with us</a>
+                    <a href="#" class="footer-link">UC Leads</a>
+                    <a href="#" class="footer-link">UC Stylebook</a>
+                </nav>
+            </div>
+            <div class="footer-col">
+                <p class="footer-col-title">Follow Us</p>
+                <div class="footer-social">
+                    <a href="#" class="social-link" aria-label="Follow us on Instagram"><i
+                            class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                    <a href="#" class="social-link" aria-label="Follow us on X (Twitter)"><i
+                            class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+                    <a href="#" class="social-link" aria-label="Follow us on Snapchat"><i class="fa-brands fa-snapchat"
+                            aria-hidden="true"></i></a>
+                    <a href="#" class="social-link" aria-label="Follow us on TikTok"><i class="fa-brands fa-tiktok"
+                            aria-hidden="true"></i></a>
+                    <a href="#" class="social-link" aria-label="Follow us on YouTube"><i class="fa-brands fa-youtube"
+                            aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="footer-copy">&copy; 2026 United Chronicle. Built by Alexis Garay
+                <i class="fa-solid fa-code" aria-hidden="true"></i>
+            </p>
+        </div>
+    </footer>
+
+    <a href="#" class="back-to-top" title="Back to Top" aria-label="Back to Top"><i class="fa-solid fa-arrow-up"
+            aria-hidden="true"></i></a>
+
+</body>
+
+</html>
+
+<!--
+====================================================================================
+PROJECT 2 GRADING — UNITED CHRONICLE NEWS (25 points total)
+====================================================================================
+Criteria                  | Points | Earned | Comments
+--------------------------|--------|--------|------------------------------------
+Design Process            |  3.0   |  3.0   | ✓ EXCELLENT — 5 hand sketches
+& Sketches                |        |        |   present, one for EACH page
+                          |        |        |   (HomePageSketch,
+                          |        |        |   AboutUsSketch,
+                          |        |        |   SectionPageSketch,
+                          |        |        |   about-mePageSketch,
+                          |        |        |   GalleryPageSketch)
+                          |        |        | ✓ Sketches placed in the proper
+                          |        |        |   assets/design-process/ folder
+                          |        |        | ✓ README explains your sketch
+                          |        |        |   process — based on Reuters and
+                          |        |        |   AP News inspirations
+                          |        |        | Full marks here.
+--------------------------|--------|--------|------------------------------------
+Multi-Page Structure      |  5.0   |  3.0   | ✓ All 5 pages present (index,
+& Navigation              |        |        |   about-me, category, about,
+                          |        |        |   gallery)
+                          |        |        | ✓ Truly consistent navigation
+                          |        |        |   across all pages
+                          |        |        | ✓ Impressive nav DROPDOWNS for
+                          |        |        |   World, U.S., Politics,
+                          |        |        |   Business, Tech, Sports — far
+                          |        |        |   above what most students
+                          |        |        |   attempt
+                          |        |        | ✓ Semantic HTML5 throughout
+                          |        |        |   (header, nav, main, section,
+                          |        |        |   about-me, footer)
+                          |        |        | ✓ ARIA: aria-label,
+                          |        |        |   aria-labelledby, aria-haspopup,
+                          |        |        |   aria-expanded, aria-hidden
+                          |        |        | ✗ gallery.html is EMPTY —
+                          |        |        |   header → footer with no
+                          |        |        |   gallery content. (Honest
+                          |        |        |   disclosure in README that
+                          |        |        |   you ran out of time.)
+                          |        |        | ✗ MULTIPLE <h1> per page — every
+                          |        |        |   .hero-title-card uses h1, so
+                          |        |        |   the homepage has ~10 h1s.
+                          |        |        |   Only one h1 per page.
+                          |        |        | ✗ Double <body> tag in
+                          |        |        |   about-me.html, about.html,
+                          |        |        |   category.html (line 46 + 131)
+                          |        |        | ✗ Invalid ARIA — role="Hero
+                          |        |        |   banner" used multiple times
+                          |        |        | ✗ Stray </i> tags throughout in
+                          |        |        |   .hero-time and footer-copy
+                          |        |        | ✗ Duplicate class attribute on
+                          |        |        |   <about-me class="hero-card
+                          |        |        |   hero-small" class="hero-link-b">
+--------------------------|--------|--------|------------------------------------
+CSS Grid & Flexbox        |  5.0   |  4.5   | ✓ Comprehensive CSS variable
+Layouts                   |        |        |   system in :root — colors,
+                          |        |        |   fonts, font-sizes (with
+                          |        |        |   clamp() responsive scaling),
+                          |        |        |   spacing scale, section
+                          |        |        |   padding, border radius,
+                          |        |        |   shadows, transitions,
+                          |        |        |   max-widths, grid gaps
+                          |        |        | ✓ Multiple CSS Grid layouts
+                          |        |        |   (.hero-grid, .hero-grid-b,
+                          |        |        |   .hero-grid-c, .footer-columns,
+                          |        |        |   .stats-row)
+                          |        |        | ✓ Flexbox throughout (header,
+                          |        |        |   nav, hero, footer-nav)
+                          |        |        | ✓ MULTIPLE @keyframes
+                          |        |        |   animations defined: flipIn,
+                          |        |        |   tiltReveal, fadeInUp,
+                          |        |        |   revealFromLeft,
+                          |        |        |   revealFromRight
+                          |        |        | ✓ prefers-reduced-motion media
+                          |        |        |   query (excellent a11y)
+                          |        |        | ✗ 1024px breakpoint is empty
+                          |        |        |   {} — no unique tablet styles
+                          |        |        | ✗ width: 100 (no unit) instead
+                          |        |        |   of 100% in .nav-cta breakpoint
+--------------------------|--------|--------|------------------------------------
+Typography System         |  3.0   |  3.0   | ✓ 2 Google Fonts loaded
+& about-me Template        |        |        |   (Inter, Syne)
+                          |        |        | ✓ Responsive clamp() font sizes
+                          |        |        | ✓ about-me has byline + date
+                          |        |        |   wrapped in <time datetime>
+                          |        |        | ✓ about-me has callouts
+                          |        |        |   (.about-me-callout) — meets
+                          |        |        |   the pull quote requirement
+                          |        |        | ✓ about-me has Related Stories
+                          |        |        |   section with 4 cards
+                          |        |        | ✓ about-me body is 500+ words
+                          |        |        |   (technically — ~600 words)
+--------------------------|--------|--------|------------------------------------
+Responsive Design         |  3.0   |  3.0   | ✓ Two real breakpoints (768px,
+                          |        |        |   480px) with actual styles
+                          |        |        | ✓ Hamburger menu with checkbox
+                          |        |        |   hack toggling .main-nav
+                          |        |        | ✓ Hero restacks to column on
+                          |        |        |   mobile, headings center
+                          |        |        | ✓ Dropdown menus collapse on
+                          |        |        |   mobile (position: static)
+                          |        |        | ✗ 1024px breakpoint is empty
+                          |        |        | ✗ width: 100 missing unit
+--------------------------|--------|--------|------------------------------------
+Accessibility             |  2.0   |  1.5   | ✓ Descriptive alt text on every
+                          |        |        |   image (your own photos!)
+                          |        |        | ✓ Comprehensive ARIA: aria-label,
+                          |        |        |   aria-labelledby, aria-haspopup,
+                          |        |        |   aria-expanded, aria-hidden
+                          |        |        | ✓ prefers-reduced-motion media
+                          |        |        |   query
+                          |        |        | ✓ <time datetime> element on
+                          |        |        |   about-me date
+                          |        |        | ✗ Multiple h1s per page break
+                          |        |        |   the heading hierarchy for
+                          |        |        |   screen readers
+                          |        |        | ✗ No :focus styles for nav links
+--------------------------|--------|--------|------------------------------------
+SEO & Performance         |  2.0   |  1.0   | ✓ Title and meta description
+                          |        |        |   on every page
+                          |        |        | ✓ Open Graph + Twitter cards
+                          |        |        |   on every page
+                          |        |        | ✓ Real webp images with
+                          |        |        |   descriptive filenames
+                          |        |        | ✓ fetchpriority="high" on logo
+                          |        |        | ✗ Same <title> on every page
+                          |        |        | ✗ Same meta description on
+                          |        |        |   every page
+                          |        |        | ✗ og:url is EMPTY on every page
+                          |        |        | ✗ og:image is EMPTY on every
+                          |        |        |   page
+                          |        |        | ✗ twitter:image = "github
+                          |        |        |   assets" placeholder
+                          |        |        | ✗ No loading="lazy" on images
+--------------------------|--------|--------|------------------------------------
+Professionalism           |  2.0   |  1.5   | ✓ EXCELLENT concept — "United
+& Polish                  |        |        |   Chronicle" looks like a real
+                          |        |        |   news website (Reuters/AP
+                          |        |        |   inspired)
+                          |        |        | ✓ ALL photos are taken by the
+                          |        |        |   student personally — that's
+                          |        |        |   the best content choice
+                          |        |        |   possible
+                          |        |        | ✓ Custom SVG logo created and
+                          |        |        |   vectorized
+                          |        |        | ✓ README is comprehensive —
+                          |        |        |   name, ID, concept, sketch
+                          |        |        |   process, fonts, color palette
+                          |        |        |   with hex codes, image
+                          |        |        |   sources, challenges, resources
+                          |        |        | ✗ Multiple structural HTML
+                          |        |        |   issues (double body tags,
+                          |        |        |   stray </i>, multiple h1s)
+                          |        |        | ✗ Gallery page is empty
+--------------------------|--------|--------|------------------------------------
+BONUS: GitHub repo /      |  +1.0  |  +1.0  | ✓ GitHub repo link submitted
+live link                 |        |        |   via Canvas comment
+--------------------------|--------|--------|------------------------------------
+BONUS: Clean design       |  +1.0  |  +1.0  | The news layout looks like a
+& code                    |        |        | real publication. Nav dropdowns,
+                          |        |        | multiple hero sections, real
+                          |        |        | photos, custom SVG logo, and a
+                          |        |        | clear visual identity. The
+                          |        |        | structural issues hold this
+                          |        |        | back from being perfect, but
+                          |        |        | the visible result is genuinely
+                          |        |        | impressive.
+--------------------------|--------|--------|------------------------------------
+TOTAL                     | 25.0   | 22.5   |
+====================================================================================
+
+SUMMARY OF ISSUES TO FIX:
+1. Add gallery content. Even pasting the photos you already have in
+   assets/images/Images-Taken-By-Me/ into a CSS Grid would unlock
+   most of the gallery score. Your photos are excellent.
+2. Replace Lorem ipsum on about-me.html and the hero subtitles with
+   real content. Even short, plausible news copy is better than
+   placeholder text.
+3. Change every <h1 class="hero-title-card"> to <h2> or <h3>. Only
+   ONE <h1> per page. The hero title is the right h1; everything
+   else in the news grid should be h2 or h3.
+4. Remove the second <body> tag in about-me.html, about.html, and
+   category.html. There should be only ONE <body> per page.
+5. Remove the stray </i> tags from .hero-time elements (e.g.,
+   <p class="hero-time"></i>) and from the footer-copy line. They
+   have no opening <i>.
+6. Fix invalid ARIA — change role="Hero banner" to either remove
+   it (the page-header already has role="banner") or use
+   role="region" with aria-label.
+7. Fix the duplicate class attribute on the Canada labor market
+   <about-me>: combine into one class="hero-card hero-small hero-link-b".
+8. Fill in the empty 1024px breakpoint with at least some unique
+   styles, and delete the empty mobile-first @media queries at the
+   bottom of the file.
+9. Fix width: 100 → width: 100% in the .nav-cta and .nav-cta-b
+   tablet rules.
+10. Add unique <title> and meta description per page (instead of
+    the same one across all 5).
+11. Fill in og:url, og:image, and twitter:image with real values
+    on every page.
+12. Add your GitHub repo link to the README and to the og:url meta
+    tag so it's embedded in the project files too.
+
+POSITIVES:
+✓ Strong concept — "United Chronicle News" is genuinely modeled
+  after real publications (Reuters, AP News) and looks the part
+✓ EVERY photo on the site is one you took yourself — that's the
+  best content choice possible and shows real ownership
+✓ Custom SVG logo that you designed and vectorized yourself
+✓ All 5 hand sketches present, one per page, in the proper
+  assets/design-process/ folder — full marks for Design Process
+✓ All 5 pages submitted with truly consistent navigation
+✓ Impressive nav dropdown menus for World, U.S., Politics,
+  Business, Technology, Sports — far above class baseline
+✓ Comprehensive CSS variable system: colors, fonts, font-sizes
+  (with clamp() responsive scaling), spacing scale, padding,
+  border-radius, shadows, transitions, max-widths, grid gaps
+✓ Multiple @keyframes animations defined (flipIn, tiltReveal,
+  fadeInUp, revealFromLeft, revealFromRight)
+✓ prefers-reduced-motion media query — excellent a11y awareness
+✓ Multiple CSS Grid layouts AND Flexbox throughout
+✓ Pure-CSS hamburger menu with checkbox toggle
+✓ about-me uses <time datetime="..."> for the publication date
+✓ about-me has callouts (pull quote equivalent)
+✓ about-me has Related Stories section with 4 cards
+✓ 2 Google Fonts loaded (Inter + Syne)
+✓ COMPREHENSIVE README — name, ID, concept, sketch process,
+  fonts, color palette with hex codes, image sources, challenges,
+  AND a list of helpful resources
+✓ HONEST disclosure: no AI used, ran out of time, gallery
+  incomplete — that level of self-awareness is appreciated
+
+====================================================================================
+-->
