@@ -14,3 +14,6 @@ https://webaim.org/resources/contrastchecker/
 https://nekocalc.com/px-to-rem-converter
 
 Used AI to remove the background for the Hero Image.
+
+5/3/2026 - Inspiration from https://jessicahsu.design/about
+
