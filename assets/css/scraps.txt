@@ -68,3 +68,41 @@
    text-align: center;
    margin-top: var(--space-xl)
 }
+
+.form-label {
+   display: block;
+   font-size: 1rem;
+   font-family: var(--font-heading);
+   font-weight: 600;
+   color: var(--color-background);
+   margin-bottom: var(--space-xs);
+}
+
+.form-input,
+.form-textarea {
+   padding: 0.5rem 0.5rem;
+   margin-bottom: 1rem;
+   background-color: var(--color-background);
+   border: 1px solid var(--color-border);
+   border-radius: var(--radius-md);
+   width: 100%;
+   display: block;
+   font-family: var(--font-body);
+}
+
+.form-button {
+   background-color: var(--color-background-dark);
+   color: var(--main-color);
+   padding: 0.5rem 1.5rem;
+   border-radius: var(--radius-pill);
+   border: none;
+   font-size: var(--font-body);
+   cursor: pointer;
+   transition: background-color var(--transition-base),
+               color var(--transition-base);
+}
+
+.form-button:hover {
+   background-color: var(--main-color-dark);
+   color: var(--color-background);
+}
